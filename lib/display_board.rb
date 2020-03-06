@@ -7,7 +7,7 @@ def display_board
 end
 
 def display_board board= ["O"," "," "," "," "," "," "," "," "]
-  puts "#{row[0] O |   |   }"
+  puts row[0]="{ O |   |   }"
   puts "-----------"
   puts "   |   |   "
   puts "-----------"
