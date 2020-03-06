@@ -8,8 +8,8 @@ end
 
 def display_board board= ["O"," "," "," "," "," "," "," "," "]
   puts row[0]="{ O |   |   }"
-  puts "-----------"
-  puts "   |   |   "
-  puts "-----------"
-  puts "   |   |   "
+  puts row[1]="{-----------}"
+  puts row[2]="{   |   |   }"
+  puts row[3]="{-----------}"
+  puts row[4]="{   |   |   }"
 end
