@@ -13,4 +13,3 @@ def display_board board= ["O"," "," "," "," "," "," "," "," "]
   puts "-----------"
   puts "   |   |   "
 end
-
