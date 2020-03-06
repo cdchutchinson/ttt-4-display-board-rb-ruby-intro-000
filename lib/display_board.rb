@@ -4,19 +4,13 @@ def display_board
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
-
-display_board board= [" ", " ", " ", " ", "X", " ", " ", " ", " "]
-  puts "   |   |   "
-  puts "-----------"
-  puts "   | X |   "
-  puts "-----------"
-  puts "   |   |   "
 end
 
-display_board board= ["O"," "," "," "," "," "," "," "," "]
-  puts " O |   |   "
+def display_board board= ["O"," "," "," "," "," "," "," "," "]
+  puts "#{row[0] O |   |   }"
   puts "-----------"
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
 end
+
