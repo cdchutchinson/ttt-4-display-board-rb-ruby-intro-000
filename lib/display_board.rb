@@ -6,8 +6,3 @@ def display_board
     puts "   |   |   "
   end
 
-
-
-
-puts "#{[" ", " ", " ", " ", "X", " ", " ", " ", " "]}"
-  end
