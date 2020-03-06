@@ -4,9 +4,8 @@ def display_board
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
-end
 
-def display_board board= [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+display_board board= [" ", " ", " ", " ", "X", " ", " ", " ", " "]
   puts "   |   |   "
   puts "-----------"
   puts "   | X |   "
@@ -14,7 +13,7 @@ def display_board board= [" ", " ", " ", " ", "X", " ", " ", " ", " "]
   puts "   |   |   "
 end
 
-def display_board board= ["O"," "," "," "," "," "," "," "," "]
+display_board board= ["O"," "," "," "," "," "," "," "," "]
   puts " O |   |   "
   puts "-----------"
   puts "   |   |   "
