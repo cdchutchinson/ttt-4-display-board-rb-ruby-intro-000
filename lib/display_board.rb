@@ -1,7 +1,4 @@
-def display_board board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
-    puts "   |   |   "
-    puts "-----------"
-    puts "   |   |   "
-    puts "-----------"
-    puts "   |   |   "
+def display_board 
+puts "#{board = [" "," "," "," "," "," "," "," "," "]}"
+puts "#{[" ", " ", " ", " ", "X", " ", " ", " ", " "]}"    
   end
