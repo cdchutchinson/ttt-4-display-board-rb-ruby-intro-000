@@ -13,6 +13,7 @@ def display_board board= [" "," "," "," "," "," "," "," "," "]
   puts "-----------"
   puts "   |   |   "
 end
+
 def display_board board= [" ", " ", " ", " ", "X", " ", " ", " ", " "]
   puts "   |   |   "
   puts "-----------"
@@ -20,6 +21,7 @@ def display_board board= [" ", " ", " ", " ", "X", " ", " ", " ", " "]
   puts "-----------"
   puts "   |   |   "
 end
+
 def display_board board= ["O"," "," "," "," "," "," "," "," "]
   puts " O |   |   "
   puts "-----------"
